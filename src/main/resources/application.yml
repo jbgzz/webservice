@@ -1,0 +1,12 @@
+server:
+  port: 8886
+  context-path: /EUDAPM
+
+endpoints:
+  shutdown:
+    enabled: true
+
+logging:
+  config: classpath:log4j2-dev.xml
+  level: info
+
